@@ -1,0 +1,50 @@
+/* ヘッダーエリア */
+.header {
+    width: calc(100% - 68px);
+    padding-top: 28px;
+    padding-bottom: 19px;
+    padding-left: 30px;
+    padding-right: 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.gnav-list {
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    position: absolute;
+    top: 32px;
+    right: 15px;
+    color: #FFFFFF;
+    list-style: none;
+}
+.gnav-item {
+    margin-left: 16px;
+}
+.logo {
+    width: 100px;
+
+}
+.logo img {
+    width: 100%;
+}
+/* キービエリア */
+.keyvisual {
+    background-image: url("./img/img-kv.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 740px;
+    width: 100%;
+}
+.c-inner {
+    
+}
